@@ -28,42 +28,6 @@ Matplotlib & Seaborn: For data visualization.
 
 Joblib: For model serialization (saving/loading).
 
-🚀 How to Run This Project
-To run this project on your local machine, follow these steps:
-
-1. Clone the Repository
-
-Bash
-
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-2. Create a Virtual Environment (Recommended)
-
-Bash
-
-# For Windows
-python -m venv venv
-.\\venv\\Scripts\\activate
-
-# For macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-3. Install Dependencies
-This project's dependencies are listed in requirements.txt. You can create this file by running pip freeze > requirements.txt after installing the libraries, or create it manually.
-
-Bash
-
-pip install -r requirements.txt
-(If you don't have a requirements.txt, you can install the packages manually: pip install jupyter pandas scikit-learn matplotlib seaborn)
-
-4. Launch Jupyter Notebook
-
-Bash
-
-jupyter notebook
-5. Run the Notebook
-Open the Random_Forest_Model.ipynb file and run the cells sequentially from top to bottom.
-
 ✨ Results and Visualizations
 The notebook generates several key visualizations that provide deep insights into the data and the model's performance.
 
